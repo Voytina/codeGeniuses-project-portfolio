@@ -91,5 +91,5 @@
 //     },
 //   };
 
-//   const reviewsSwiper = new Swiper('.swiper-container', params);
+//   const reviewsSwiper = new Swiper('.reviews-swiper-container', params);
 // }
