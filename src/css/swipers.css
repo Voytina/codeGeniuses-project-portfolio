@@ -1,0 +1,57 @@
+/* =========================== REVIEWS */
+
+.reviews-swiper-wrapper {
+  height: 332px;
+  margin-bottom: 32px;
+}
+
+/* ========================== BUTTONS */
+
+.btns-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .btns-wrapper {
+    gap: 20px;
+  }
+}
+
+.custom-swiper-btn-prev,
+.custom-swiper-btn-next {
+  padding: 14px 14px 14px 14px;
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .custom-swiper-btn-prev,
+  .custom-swiper-btn-next {
+    padding: 18px 18px 18px 18px;
+  }
+}
+
+.swiper-btn-prev-icon,
+.swiper-btn-next-icon {
+  stroke: #ffffff;
+  fill: none;
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-btn-prev-icon,
+  .swiper-btn-next-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.swiper-button-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
